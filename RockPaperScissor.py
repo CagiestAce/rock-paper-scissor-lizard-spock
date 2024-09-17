@@ -23,7 +23,7 @@ print("4) 🦎")
 print("5) 🖖")
 
 player = int(input("Pick a number: "))
-cpu = random.randint(1, 3)
+cpu = random.randint(1, 5)
 
 if player not in option:
     print("Invalid number, pick a number between 1 and 5.")
